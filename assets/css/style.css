@@ -20,7 +20,20 @@ h2 {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525
+    color: #454545;
+}
+
+h1 {
+    font-size: 280%;
+}
+
+h2 {
+    font-size: 230%;
+
+}
+
+h3 {
+    font-size: 160%;
 }
 
 #logo {
