@@ -39,7 +39,7 @@ h3 {
 }
 
 
-#logo {
+#logo #logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -53,7 +53,7 @@ h3 {
 }
 
 #menu,
-#logo {
+#logo, #logo {
     line-height: 75px;
 }
 
@@ -361,9 +361,17 @@ footer {
 
     #left-about-heading ,#center-about-heading, #right-about-heading {
         height: 250px;
+        margin-bottom: 25px;
     }
-    #left-about, #right-about, #center-about {
+    #left-about {
         padding-top: 30px;
+        width: 88%;
+        float: left;
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+    #right-about, #center-about {
+        padding-top: 0px;
         width: 88%;
         float: left;
         padding-left: 6%;
@@ -386,7 +394,7 @@ footer {
     #cover-text {
         font-size: 102%;
         left: 20px;
-     
+        width: 84%;
       }
       #logo {
         display: none;
@@ -397,5 +405,8 @@ footer {
       #small-logo {
         display: block;
       }
-    
+      #about p {
+        width: 88%;
+        margin: auto;
+      }
 }
