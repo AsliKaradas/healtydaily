@@ -187,9 +187,9 @@ hr {
 }
 
 
-
-#right-about-heading h2 {
-    text-align: right;
+#left-about h2, #center-about h2, #right-about h2 {
+    font-size: 130%;
+     text-align: center;
 }
 
 #right-about-heading p {
