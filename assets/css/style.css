@@ -145,19 +145,23 @@ h3 {
 
 #left-about {
     padding-top: 30px;
-    width: 33%;
+    width: 25%;
     float: left;
+    padding-left: 6%;
 }
 
 #right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
+    padding-top: 52px;
+    width: 25%;
+    float: left;
+    padding-left: 7%;
 }
 
 #center-about {
-    width: 33%;
-    margin: 0 auto;
+    padding-top: 52px;
+    width: 25%;
+    float: left;
+    padding-left: 6.5%;
 }
 
 hr {
@@ -166,7 +170,7 @@ hr {
     margin: 5px 0;
 }
 
-.left-about-heading {
+#left-about-heading {
     width: 60%;
     float: right;
     line-height: 20px;
@@ -174,7 +178,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading {
+#right-about-heading {
     width: 60%;
     float: left;
     line-height: 20px;
@@ -182,11 +186,13 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
+
+
+#right-about-heading h2 {
     text-align: right;
 }
 
-.right-about-heading p {
+#right-about-heading p {
     text-align: right;
 }
 
