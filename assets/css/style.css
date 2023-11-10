@@ -382,6 +382,7 @@ footer {
     }
     .left-video {
         padding: 0;
+        width: 100%;
     }
     .right-text {
         left: 0;
@@ -451,7 +452,7 @@ footer {
         margin: auto;
       }
       #contact-form {
-        height: 800px;
+        height: 674px;
       }
       #contact-form form {
         box-sizing: border-box;
