@@ -205,6 +205,12 @@ hr {
     clear: both;
 }
 
+/* contact-form */
+
+#contact-form {
+    height: 600px;
+    background: blue;
+}
 /* footer */
 
 footer {
