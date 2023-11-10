@@ -375,10 +375,13 @@ footer {
 }
 
 @media screen and (max-width: 950px) {
-    .right-text, .left-video {
+    .right-text {
         width: 100%;
         box-sizing: border-box;
         padding: 30px;
+    }
+    .left-video {
+        padding: 0;
     }
     .right-text {
         left: 0;
@@ -448,12 +451,13 @@ footer {
         margin: auto;
       }
       #contact-form {
-        height: 660px;
+        height: 800px;
       }
       #contact-form form {
         box-sizing: border-box;
         width: 100%;
         padding-top: 30px;
+        height: auto;
       }
       #contact-form button {
         font-size: 130%;
