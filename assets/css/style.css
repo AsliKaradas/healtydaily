@@ -39,7 +39,7 @@ h3 {
 }
 
 
-#logo #logo {
+#logo, #small-logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -53,7 +53,7 @@ h3 {
 }
 
 #menu,
-#logo, #logo {
+#logo, #small-logo {
     line-height: 75px;
 }
 
@@ -284,7 +284,13 @@ hr {
     height: 600px;
     background: url('../images/hero-image.jpg') no-repeat right bottom;
 }
+#contact-form label {
+    font-size: 130%;
+}
 
+#contact-form .fname, #contact-form .lname, #contact-form .email {
+    margin-bottom: 20px;
+}
 #contact-form form {
     width: 500px;
     height: 450px;
@@ -304,6 +310,23 @@ hr {
     height: 40px;
     background: transparent;
     border: 1px solid #fff;
+}
+.radio-buttons input {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 20px;
+}
+.radio-buttons label {
+    float: left;
+     width: 25%;
+}
+#feedback {
+    width: 97%;
+  box-sizing: border-box;
+  height: 100px;
+  margin-bottom: 20px;
+
 }
 /* footer */
 
@@ -423,5 +446,19 @@ footer {
       #about p {
         width: 88%;
         margin: auto;
+      }
+      #contact-form {
+        height: 660px;
+      }
+      #contact-form form {
+        box-sizing: border-box;
+        width: 100%;
+        padding-top: 30px;
+      }
+      #contact-form button {
+        font-size: 130%;
+        width: 200px;
+        padding: 15px;
+
       }
 }
