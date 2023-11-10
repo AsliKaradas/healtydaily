@@ -63,6 +63,10 @@ h3 {
     margin-right: 30px;
 }
 
+#small-logo {
+    display: none;
+  }
+
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -342,6 +346,9 @@ footer {
         width: 87%;
         height: 400px;
       }
+      #small-logo {
+        display: none;
+      }
 }
 
 @media screen and (max-width: 950px) {
@@ -381,4 +388,14 @@ footer {
         left: 20px;
      
       }
+      #logo {
+        display: none;
+      }
+      #menu {
+        display: none;
+      }
+      #small-logo {
+        display: block;
+      }
+    
 }
