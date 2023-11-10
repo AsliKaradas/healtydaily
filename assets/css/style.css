@@ -143,6 +143,10 @@ h3 {
     text-align: center;
 }
 
+#about p {
+    width: 65%;
+    margin: auto;
+}
 #left-about {
     padding-top: 30px;
     width: 25%;
@@ -177,6 +181,7 @@ hr {
     margin-bottom: 50px;
     border: 1px solid #d8d8d8;
     padding: 15px;
+    height: 200px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -250,6 +255,9 @@ hr {
 
 #photos {
     clear: both;
+   
+}
+.left-images {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
