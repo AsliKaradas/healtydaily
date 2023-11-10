@@ -362,7 +362,23 @@ footer {
         padding-left: 6%;
         padding-right: 6%;
     }
-    #about {
+    #about, #contact {
         height: 1200px;
     }
+    #video {
+        height: 1100px;
+    }
+    .right-photos-text {
+        width: 88%;
+        margin: auto;
+        padding: 30px 30px;
+    }
+    #photos {
+        height: 1600px;
+    }
+    #cover-text {
+        font-size: 102%;
+        left: 20px;
+     
+      }
 }
