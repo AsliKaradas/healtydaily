@@ -196,6 +196,7 @@ hr {
     height: 600px; 
     clear: both;
     display: flex;
+    background: #d1dbe4;
 }
 
 #video iframe {
