@@ -205,12 +205,26 @@ hr {
     height: 500px;
     clear: both;
 }
+
+#video a {
+    color: white;
+    border: 1px solid #474747;
+    background: #474747;
+    padding: 10px;
+    text-decoration: none;
+}
 .right-text, .left-video {
     width: 50%;
 }
 .right-text {
     padding: 45px;
     box-sizing: border-box;
+    color: white;
+    margin: auto;
+    position: relative;
+    left: 35px;
+    line-height: 40px;
+    font-size: 160%;
 }
 
 /* contact-form */
