@@ -354,21 +354,31 @@ footer {
 @media screen and (max-width: 950px) {
     .right-text, .left-video {
         width: 100%;
+        box-sizing: border-box;
+        padding: 30px;
     }
     .right-text {
         left: 0;
+        padding: 25px;
     }
-
+    .right-text h2 {
+        line-height: 45px;
+    }
+    .right-text p {
+        margin-bottom: 20px;
+        
+    }
     #left-about-heading ,#center-about-heading, #right-about-heading {
         height: 250px;
         margin-bottom: 25px;
     }
     #left-about {
         padding-top: 30px;
-        width: 88%;
+        width: 100%;
         float: left;
         padding-left: 6%;
         padding-right: 6%;
+        box-sizing: border-box;
     }
     #right-about, #center-about {
         padding-top: 0px;
@@ -382,6 +392,11 @@ footer {
     }
     #video {
         height: 1100px;
+        display: block;
+    }
+    #video iframe {
+        margin-top: 30px;
+        width: 100%
     }
     .right-photos-text {
         width: 88%;
