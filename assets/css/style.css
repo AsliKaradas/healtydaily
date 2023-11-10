@@ -216,7 +216,7 @@ hr {
 
 #contact-form {
     height: 600px;
-    background:#cde2f2;
+    background: url('../images/hero-image.jpg') no-repeat right bottom;
 }
 /* footer */
 
