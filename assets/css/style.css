@@ -86,10 +86,10 @@ h3 {
     color: #fff;
 }
 
-#hero-image {
+#hero-image { 
     height: 100vh;
     width: 100%;
-    background: url('../images/hero-image1.jpg') no-repeat top center;
+    background: url('../images/hero-image.jpg') no-repeat top center;
 
     /* animates zoom effect on loading page*/
     animation-name: hero-zoom;
@@ -194,7 +194,8 @@ hr {
     width: 50%;
     text-align: center;
     margin: auto;
-    height: 600px;
+    height: 800px;
+    clear: both;
 }
 
 #video iframe {
@@ -209,7 +210,7 @@ hr {
 
 #contact-form {
     height: 600px;
-    background: blue;
+    background:#cde2f2;
 }
 /* footer */
 
