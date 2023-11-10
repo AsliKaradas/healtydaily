@@ -193,7 +193,7 @@ hr {
 #video {
     text-align: center;
     margin: auto;
-    height: 600px;
+    height: 600px; 
     clear: both;
     display: flex;
 }
