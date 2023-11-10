@@ -141,7 +141,21 @@
 
     </section>
     <section id="contact-form">
-        <form action=""></form>
+      <form method=“get” action=“confirmation.html”>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="yoga">Choose your yoga class:</label>
+        <input id="yoga" type="radio" name="yoga" value="yoga">
+        <input id="meditation" type="radio" name="meditation" value="meditation">
+        <label for="feedback">How can we improve your experience with us?</label>
+        <br>
+        <textarea id="feedback" rows="4" cols="87" name="feedback"></textarea>
+        <button type="submit" value="submit"><strong>Submit</strong></button>
+    </form>
     </section>
     <footer>
       <ul class="social-networks">
