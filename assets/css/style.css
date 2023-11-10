@@ -191,11 +191,11 @@ hr {
 
 /* video */
 #video {
-    width: 50%;
     text-align: center;
     margin: auto;
-    height: 800px;
+    height: 600px;
     clear: both;
+    display: flex;
 }
 
 #video iframe {
@@ -204,6 +204,13 @@ hr {
 
     height: 600px;
     clear: both;
+}
+.right-text, .left-video {
+    width: 50%;
+}
+.right-text {
+    padding: 45px;
+    box-sizing: border-box;
 }
 
 /* contact-form */
