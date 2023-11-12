@@ -346,7 +346,12 @@ hr {
     margin-right: 10px;
     margin-bottom: 20px;
   }
-
+.yoga {
+    width: 64%;
+}
+.mediation {
+    width: 126%;
+}
 #feedback {
     width: 97%;
   box-sizing: border-box;
@@ -362,8 +367,6 @@ hr {
 
 footer {
     height: 150px;
-    position: fixed;
-    bottom: 0;
     width: 100%;
 }
 
