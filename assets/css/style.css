@@ -179,7 +179,7 @@ hr {
     margin: 5px 0;
 }
 
-#left-about-heading {
+.left-about-heading {
     float: right;
     line-height: 20px;
     clear: both;
@@ -191,7 +191,7 @@ hr {
     padding-top: 30px;
 }
 
-#right-about-heading {
+.right-about-heading {
     float: left;
     line-height: 20px;
     clear: both;
@@ -203,7 +203,7 @@ hr {
     padding-top: 30px;
 }
 
-#center-about-heading {
+.center-about-heading {
     border: 1px solid #d8d8d8;
     padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -341,11 +341,12 @@ hr {
      width: 25%!important;
 }
 #contact-form button {
-    font-size: 130%;
-    width: 200px;
+    font-size: 110%;
     padding: 15px;
-
+    margin-right: 10px;
+    margin-bottom: 20px;
   }
+
 #feedback {
     width: 97%;
   box-sizing: border-box;
@@ -353,6 +354,7 @@ hr {
   margin-bottom: 20px;
 
 }
+
 .feedback label {
     float: left;
 }
@@ -385,7 +387,7 @@ footer {
         font-size: 89%;
         text-align: center;
       }
-      #left-about-heading ,#center-about-heading, #right-about-heading {
+      .left-about-heading ,.center-about-heading, .right-about-heading {
         height: 320px;
     }
     .right-text {
@@ -423,7 +425,7 @@ footer {
         margin-bottom: 20px;
         
     }
-    #left-about-heading ,#center-about-heading, #right-about-heading {
+    .left-about-heading ,.center-about-heading, .right-about-heading {
         height: 250px;
         margin-bottom: 25px;
     }
@@ -460,7 +462,7 @@ footer {
     }
 
     #photos {
-        height: 1600px;
+        height: 1500px;
     }
 
     #cover-text {
@@ -482,13 +484,14 @@ footer {
         width: 88%;
         margin: auto;
       }
+
       #menu {
         float: left;
         margin-left: 30px;
         display: block;
       }
       #contact-form {
-        height: 674px;
+        height: 905px;
       }
 
       #contact-form form { 
