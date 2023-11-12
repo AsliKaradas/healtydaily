@@ -200,7 +200,7 @@ hr {
     border: 1px solid #d8d8d8;
     padding: 15px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    padding-top: 30px;
 }
 
 #center-about-heading {
@@ -209,17 +209,14 @@ hr {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     height: 200px;
     margin-bottom: 50px;
+    padding-top: 30px;
 }
-
 
 #left-about h2, #center-about h2, #right-about h2 {
     font-size: 130%;
      text-align: center;
 }
 
-#right-about-heading p {
-
-}
 
 /* video */
 #video {
@@ -461,31 +458,40 @@ footer {
         margin: auto;
         padding: 30px 30px;
     }
+
     #photos {
         height: 1600px;
     }
+
     #cover-text {
         font-size: 102%;
         left: 20px;
         width: 84%;
       }
+
       #logo {
         display: none;
       }
-      #menu {
-        display: none;
-      }
+    
       #small-logo {
         display: block;
+        margin-bottom: -25px;
       }
+
       #about p {
         width: 88%;
         margin: auto;
       }
+      #menu {
+        float: left;
+        margin-left: 30px;
+        display: block;
+      }
       #contact-form {
         height: 674px;
       }
-      #contact-form form {
+
+      #contact-form form { 
         box-sizing: border-box;
         width: 100%;
         padding-top: 30px;
@@ -495,6 +501,7 @@ footer {
       .left-images {
         width: 100%;
       }
+
       #photos {
         display: block;
       }
