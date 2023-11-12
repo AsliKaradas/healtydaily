@@ -362,7 +362,9 @@ hr {
 
 footer {
     height: 150px;
-
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 
 .social-networks {
