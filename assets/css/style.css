@@ -261,7 +261,9 @@ hr {
 
 #photos {
     clear: both;
-    height: 800px;
+    height: 1166px;
+  overflow: hidden;
+  display: flex;
 }
 .left-images {
     width: 50%;
@@ -469,5 +471,8 @@ footer {
       }
       .left-images {
         width: 100%;
+      }
+      #photos {
+        display: block;
       }
 } 
