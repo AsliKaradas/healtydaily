@@ -44,7 +44,9 @@ h3 {
     font-size: 280%;
     margin-left: 30px;
 }
-
+#logo, #small-logo {
+    margin-bottom: 0;
+}
 /* navigation links*/
 
 #menu {
@@ -246,7 +248,7 @@ hr {
 #video a:hover {
     color: #474747;
     border: 1px solid #474747;
-    background: #white;
+    background: white;
     padding: 10px;
     text-decoration: none;
 }
@@ -281,6 +283,7 @@ hr {
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    overflow: hidden;
 }
 
 .right-photos-text {
