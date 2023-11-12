@@ -342,16 +342,23 @@ hr {
 }
 #contact-form button {
     font-size: 110%;
-    padding: 15px;
     margin-right: 10px;
     margin-bottom: 20px;
+    color: #474747;
+    border: 1px solid #474747;
+    background: white;
+    padding: 10px;
+    text-decoration: none;
   }
+
 .yoga {
-    width: 64%;
+    width: 50%;
 }
+
 .mediation {
     width: 126%;
 }
+
 #feedback {
     width: 97%;
   box-sizing: border-box;
