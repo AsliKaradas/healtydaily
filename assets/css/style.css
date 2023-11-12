@@ -313,10 +313,11 @@ hr {
     width: 500px;
     height: 450px;
     margin: auto;
-    padding-top: 75px;
+    padding-top: 25px;
     background: #00000069;
     padding-left: 15px;
     color: white;
+    height: auto;
 }
 #contact-form label {
     width: 100%;
