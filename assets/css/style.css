@@ -299,7 +299,7 @@ hr {
 /* contact-form */
 
 #contact-form {
-    height: 600px;
+    height: 800px;
     background: url('../images/hero-image.jpg') no-repeat right bottom;
 }
 #contact-form label {
@@ -318,6 +318,9 @@ hr {
     padding-left: 15px;
     color: white;
     height: auto;
+}
+#contact-form p {
+    margin-bottom: 15px;
 }
 #contact-form label {
     width: 100%;
