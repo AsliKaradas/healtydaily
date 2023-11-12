@@ -272,12 +272,13 @@ hr {
 
 .right-photos-text {
     width: 50%;
-    margin: auto;
     padding: 90px;
 }
+
 #photos img {
     width: 100%;
 }
+
 /* contact-form */
 
 #contact-form {
@@ -466,4 +467,7 @@ footer {
         padding: 15px;
 
       }
-}
+      .left-images {
+        width: 100%;
+      }
+} 
