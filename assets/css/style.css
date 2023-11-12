@@ -148,8 +148,7 @@ h3 {
 }
 
 #about p {
-    width: 65%;
-    margin: auto;
+  text-align: center;
 }
 #left-about {
     padding-top: 30px;
@@ -217,7 +216,7 @@ hr {
 }
 
 #right-about-heading p {
-    text-align: right;
+
 }
 
 /* video */
@@ -244,6 +243,13 @@ hr {
     padding: 10px;
     text-decoration: none;
 }
+#video a:hover {
+    color: #474747;
+    border: 1px solid #474747;
+    background: #white;
+    padding: 10px;
+    text-decoration: none;
+}
 .right-text, .left-video {
     width: 50%;
 }
@@ -256,12 +262,17 @@ hr {
     line-height: 40px;
     font-size: 160%;
 }
-
+.right-text h2 {
+    line-height: 45px;
+}
+.right-text p {
+    margin-bottom: 20px;
+}
 /* images */
 
 #photos {
     clear: both;
-    height: 1166px;
+    height: 677px;
   overflow: hidden;
   display: flex;
 }
@@ -280,6 +291,7 @@ hr {
 #photos img {
     width: 100%;
 }
+
 
 /* contact-form */
 
